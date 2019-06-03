@@ -40,7 +40,7 @@ header {
 }
 
 .carousel-img {
-    height: 700px;
+    height: 100%;
     width: auto;
     border-radius: 10px;
 }
