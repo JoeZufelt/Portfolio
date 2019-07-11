@@ -301,7 +301,8 @@ body{
 /* Portfolio Jam*/
 
 .cardCol{
-    height:325px;
+    height: 325px;
+    width: auto;
     padding:15px;
     margin:0;
 }
@@ -336,7 +337,7 @@ body{
 }
 
 .back{
-    background: url("./Images/macBlank.png");
+    background: url("../images/macBlank.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     transform: perspective(600px) rotateY(180deg);
