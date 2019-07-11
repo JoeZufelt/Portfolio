@@ -43,11 +43,19 @@ body{
 
 }
 
-.h1{
+/* .h1{
     margin-left:auto;
     margin-right:auto;
     font-weight: bold;
     width:auto;
+} */
+
+.titleName {
+    margin-bottom: 5px;
+}
+
+.titleTag {
+    margin-top: 5px;
 }
 
 .myjumbo{
