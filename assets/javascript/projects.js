@@ -14,7 +14,7 @@ for(var i=0;i<array.length;i++)
  var newCol = $("<div>").addClass("col-sm-6 cardCol");
  var newCard = $("<div>").addClass("card card-show middle");
  var newFront = $("<div>").addClass("front");
- var newFrontImage = $("<img>").attr("src",array[i].imgSrc).attr("alt",array[i].imgAlt).addClass("img-fluid");
+ var newFrontImage = $("<img>").attr("src",array[i].imgSrc).attr("alt",array[i].imgAlt).addClass("img-fluid projectImg");
  $(newFront).append(newFrontImage);
  var newBack = $("<div>").addClass("back");
  var newBackContent = $("<div>").addClass("back-content");

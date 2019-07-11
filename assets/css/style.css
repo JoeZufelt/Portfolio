@@ -332,6 +332,11 @@ body{
     transition: transform .6s linear;
 }
 
+.projectImg {
+    height: 325px;
+    width: auto;
+}
+
 .front img{
    max-height: 100%;
    width: 100%;
@@ -340,7 +345,8 @@ body{
 }
 
 .front{
-
+    height: 100%;
+    width: 100%;
     transform: perspective(600px) rotateY(0deg);
 }
 
