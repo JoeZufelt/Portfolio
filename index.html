@@ -1,133 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE <!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Joe Zufelt</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assests/javascript/projects.js"></script>
 </head>
 
 <body>
-    <div class="paralax">
-        <div class="header">
-            <h1 id="name">Joe Zufelt</h1>
-            <h3 id="sub-name">Coder. Baker. Candlestick maker.</h3>
+    <nav class="navbar sticky-top navbar-light mynav">
+        <a class="navbar-brand" href="https://github.com/JoeZufelt" target="_blank">JCZ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">My Projects</a>
+                </li>
+            </ul>
         </div>
-    </div>
-    <div class="conatiner">
-        <div class="row">
-            <h1 class="col-md-12" id="project-title">My Projects</h1>
+    </nav>
+    <div class="container-fluid headContainer">
+        <div class="row headerRow">
+            <div class="col-sm-8 offset-sm-2">
+                <h1 class="text-center">Joe Zufelt</h1>
+            </div>
         </div>
-        <div class="row">
-            <div class="projects col-md-10 col-sm-6">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="https://joezufelt.github.io/Bookmarks/" target="_blank">
-                                <img src="assets/images/bookmarks.JPG" class="d-block w-100 carousel-img"
-                                    alt="Bookmarks">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5 class="carousel-header slide-one">Bookmarks</h5>
-                                    <p class="carousel-text slide-one">A better way to find books</p>
-                                </div>
+        <div class="row myRow">
+            <div class="col-sm-12 col-md-6 mycontainer media">
+                <div class="row">
+                    <div class="col-sm-4 text-center profileLinks">
+                        <img src="assets/images/Profile.png" class="img-fluid myimg" alt="My Cartoon Face">
+                        <div class="user-media">
+                            <a href="https://www.linkedin.com/in/joe-zufelt/" target="_blank" class="color1">
+                                <i class="icon ion-logo-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/JoeZufelt" target="_blank" class="color2">
+                                <i class="icon ion-logo-github"></i>
+                            </a>
+                            <a href="mailto:joe.zufelt@gmail.com" class="color3">
+                                <i class="icon ion-md-mail-open"></i>
                             </a>
                         </div>
-                        <div class="carousel-item">
-                            <a href="https://joezufelt.github.io/TriviaGame/" target="_blank">
-                                <img src="assets/images/trivia_game.JPG" class="d-block w-100 carousel-img"
-                                    alt="Futurama Trivia">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5 class="carousel-header slide-two">Futurama Trivia Game</h5>
-                                    <p class="carousel-text slide-two">Test to see how much you know about Futurama</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                                <a href="https://joezufelt.github.io/to-shreds-you-say/" target="_blank">
-                                    <img src="assets/images/clicky_game.JPG" class="d-block w-100 carousel-img"
-                                        alt="Clicky Game">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5 class="carousel-header slide-three">Futurama Clicky Game</h5>
-                                        <p class="carousel-text slide-three">Can you only click on the character once?</p>
-                                    </div>
-                                </a>
-                            </div>
-                        <div class="carousel-item">
-                            <a href="https://joezufelt.github.io/GifMeSomeVG/" target="_blank">
-                                <img src="assets/images/gif.JPG" class="d-block w-100 carousel-img" alt="Game Gifs">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5 class="carousel-header slide-four">Gif Generator</h5>
-                                    <p class="carousel-text slide-four">Get gifs for your favorite games.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- <div class="carousel-item">
-                            <a href="https://cryptic-taiga-66466.herokuapp.com/" target="_blank">
-                                <img src="assets/images/airdnd.JPG" class="d-block w-100 carousel-img" alt="AirDnD">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5 class="carousel-header slide-five">AirD&#38;D</h5>
-                                    <p class="carousel-text slide-five">Find your new guild</p>
-                                </div>
-                            </a>
-                        </div> -->
-                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-8 media-body aboutMe ffvii">
+                        <h5 class="mt-0">About Me</h5>
+
+                        <p>I was born and raised in Wilmington, DE. A little over a year ago, my wife and I took a risk
+                            and moved to Orlando to create something new together. Shortly after the move, I enrolled in
+                            the UCF Coding Bootcamp with the hopes that I could increase my knowledge and skills in the
+                            programming world.</p>
+                        <p>In my Portfolio, you will find just a few examples of the different projects I completed
+                            during my time in the Bootcamp. These examples showcase my skills and programming knowledge
+                            that I can bring to the team.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <footer class="footer-stuff">
-        <div class="container">
-            <div class="row">
-                <div class="info col-md-6">
-                    <h3>More Information</h3>
-                    <p>To learn more, connect with me through my LinkedIn profile. To see all current and past projects,
-                        visit my GitHub page. For any other inquiries, contact me through email.</p>
-                </div>
-                <div class="contact col-md-6">
-                    <h3>Contact</h3>
-                    <p><i class="fa fa-linkedin-square"></i>: <a class="text-white" href="https://www.linkedin.com/in/joe-zufelt/" target="_blank">LinkedIn</a><br>
-                        <i class="fa fa-github"></i>: <a class="text-white" href="https://github.com/JoeZufelt" target="_blank">GitHub</a><br>
-                        &#9743;: (302) 743-9741<br>
-                        &#9993;: <a class="text-white" href="mailto:joe.zufelt@gmail.com">joe.zufelt@gmail.com</a></p>
+            <div class="col-sm-12 col-md-6 mycontainer">
+                <div class="skills">
+                    <h1>My Proficiencies</h1>
+                    <li>
+                        <h4>HTML</h4><span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <h4>CSS</h4><span class="bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <h4>JQUERY</h4><span class="bar"><span class="jquery"></span></span>
+                    </li>
+                    <li>
+                        <h4>JAVASCRIPT</h4><span class="bar"><span class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <h4>NODE.JS</h4><span class="bar"><span class="node"></span></span>
+                    </li>
+                    <li>
+                        <h4>MYSQL</h4><span class="bar"><span class=mysql></span></span>
+                    </li>
+                    <li>
+                        <h4>MONGO</h4><span class="bar"><span class="mongo"></span></span>
+                    </li>
+                    <li>
+                        <h4>REACT</h4><span class="bar"><span class="react"></span></span>
+                    </li>
                 </div>
             </div>
-        </div>
-    </footer>
-    <div class="footer-copyright">
-        <div class="container">
-            © 2019 Copyright Joe Zufelt
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
 
