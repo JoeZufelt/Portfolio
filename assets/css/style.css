@@ -185,9 +185,9 @@ body{
     animation: mysql 5s;
 }
 
-.mongo{
+.csharp{
     width:50%;
-    animation: mongo 5s;
+    animation: csharp 5s;
 }
 
 .react{
